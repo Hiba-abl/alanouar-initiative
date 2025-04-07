@@ -1,0 +1,165 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* BANNIÈRE */
+.about-banner {
+    background: url('aa.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.about-banner h1 {
+    font-size: 2.5em;
+}
+
+/* CONTENU PRINCIPAL */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* SECTION À PROPOS */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.about-content .text {
+    width: 50%;
+}
+
+.about-content .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* VALEURS */
+.values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.value-item {
+    width: 22%;
+    text-align: center;
+}
+
+.value-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.value-item h3 {
+    margin-top: 10px;
+    color: #4a7c59;
+}
+
+/* HISTOIRE */
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.history-text {
+    width: 50%;
+}
+
+
+/* ACTIONS */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.action-item {
+    width: 30%;
+    text-align: center;
+}
+
+.action-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.action-item h3 {
+    margin-top: 10px;
+    color: #4a7c59;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.containe {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+h3 {
+    color: #16a085;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.section {
+    margin-bottom: 20px;
+}

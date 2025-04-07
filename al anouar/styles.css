@@ -1,0 +1,176 @@
+/* Importation de la police */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf0a3;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+/* BANNIÈRE */
+.banner {
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    flex-direction: column;
+    
+    overflow: hidden;
+    background: url('pic.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+
+
+.banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 80px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+}
+
+h2 {
+    text-align: center;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+/* MISSIONS */
+.mission-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.mission {
+    flex: 1;
+    padding: 20px;
+}
+
+.icon {
+    font-size: 4rem;
+    margin-bottom:10px;
+}
+
+.mission h3 {
+    color: #333;
+}
+
+/* ÉQUIPE */
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+#contact {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #4a7c59;
+    font-size: 2em;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #4a7c59;
+}
+
+/* Icônes réseaux sociaux */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img {
+    width: 40px; /* Taille des icônes */
+    height: 40px;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+}
+
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 20px;
+}
